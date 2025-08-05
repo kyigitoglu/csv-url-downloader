@@ -47,23 +47,25 @@ https://example.com/doc2.pdf
 
 node download.js
 
-What happens when you run the script?
-It reads all URLs from urls.csv.
+## What happens when you run the script?
 
-Creates a downloads folder (if it doesn't exist).
+**It reads all URLs from urls.csv.
 
-Downloads each file into the downloads folder.
+**Creates a downloads folder (if it doesn't exist).
 
-Shows a summary of how many files were processed, downloaded successfully, or failed.
+**Downloads each file into the downloads folder.
 
-Troubleshooting
-Make sure your URLs are accessible and correct.
+**Shows a summary of how many files were processed, downloaded successfully, or failed.
 
-If a download fails, check the error message in the terminal.
+## Troubleshooting
 
-Ensure you have a stable internet connection.
+**Make sure your URLs are accessible and correct.
 
-The script uses streaming to handle large files efficiently.
+**If a download fails, check the error message in the terminal.
+
+**Ensure you have a stable internet connection.
+
+**The script uses streaming to handle large files efficiently.
 
 
 
