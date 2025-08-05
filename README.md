@@ -33,7 +33,8 @@ This simple Node.js script reads a CSV file containing URLs and downloads all th
    npm install
 
    
-4. **Prepare your CSV file
+4. **Prepare your CSV file**
+
 
 Create a file named urls.csv in the project folder.
 
@@ -43,29 +44,29 @@ Link
 https://example.com/image1.jpg
 https://example.com/doc2.pdf
 
-5. **Run the downloader script
+5. **Run the downloader script**
 
 node download.js
 
 ## What happens when you run the script?
 
-**It reads all URLs from urls.csv.
+**It reads all URLs from urls.csv.**
 
-**Creates a downloads folder (if it doesn't exist).
+**Creates a downloads folder (if it doesn't exist).**
 
-**Downloads each file into the downloads folder.
+**Downloads each file into the downloads folder.**
 
-**Shows a summary of how many files were processed, downloaded successfully, or failed.
+**Shows a summary of how many files were processed, downloaded successfully, or failed.**
 
 ## Troubleshooting
 
-**Make sure your URLs are accessible and correct.
+**Make sure your URLs are accessible and correct.**
 
-**If a download fails, check the error message in the terminal.
+**If a download fails, check the error message in the terminal.**
 
-**Ensure you have a stable internet connection.
+**Ensure you have a stable internet connection.**
 
-**The script uses streaming to handle large files efficiently.
+**The script uses streaming to handle large files efficiently.**
 
 
 
