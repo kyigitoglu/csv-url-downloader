@@ -33,7 +33,7 @@ This simple Node.js script reads a CSV file containing URLs and downloads all th
    npm install
 
    
-4.Prepare your CSV file
+4. **Prepare your CSV file
 
 Create a file named urls.csv in the project folder.
 
@@ -43,7 +43,7 @@ Link
 https://example.com/image1.jpg
 https://example.com/doc2.pdf
 
-5. Run the downloader script
+5. **Run the downloader script
 
 node download.js
 
