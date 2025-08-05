@@ -46,7 +46,9 @@ https://example.com/doc2.pdf
 
 5. **Run the downloader script**
 
-node download.js
+   ```bash
+   node download.js
+
 
 ## What happens when you run the script?
 
